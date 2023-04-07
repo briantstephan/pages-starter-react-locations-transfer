@@ -18,7 +18,7 @@ const links: Link[] = [
 ];
 
 const Header = () => {
-  const linkDoms = a.map((link) => (
+  const linkDoms = links.map((link) => (
     <div key={link.label}>
       <a href={link.url} target="_blank" rel="noreferrer">
         {link.label}
